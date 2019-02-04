@@ -3,24 +3,27 @@
     <ToolbarComponent title="Inicio"/>
     <v-card elevation="4" class="container-information">
       <div class="personal-information">
-        <h1>Welcome to my personal web</h1>
+        <h1>Bienvenido a mi web personal</h1>
         <img class="profile-img" src="../assets/0.jpeg"/>
-        <p>My name is Juanma Pérez!</p>
+        <p>Mi nombre es Juan Manuel Pérez Toro y actualmente estoy terminando la carrera de Ingeniería
+          Informática, me encanta la informática desde pequeñito y en general la ciencia, esta web es una
+          recopilación de todos los proyectos, aplicaciones y enseñanzas que quiero compartir con la gente.
+        </p>
       </div>
       <div class="menu">
         <router-link tag="apps" to="/apps">
           <div class="element">
-            <h5>My Apps</h5>
+            <h5>Mis apps</h5>
           </div>
         </router-link>
         <router-link tag="projects" to="/projects">
           <div class="element">
-            <h5>My projects</h5>
+            <h5>Mis proyectos</h5>
           </div>
         </router-link>
         <router-link tag="tutorials" to="/tutorials">
           <div class="element">
-            <h5>Tutorials</h5>
+            <h5>Tutoriales</h5>
           </div>
         </router-link>
       </div>

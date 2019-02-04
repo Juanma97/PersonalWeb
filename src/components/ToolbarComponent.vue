@@ -6,8 +6,8 @@
       <v-toolbar-items>
         <v-btn flat color="white">CONTACTO</v-btn>
         <v-btn flat color="white">BLOG</v-btn>
-        <v-btn flat color="white">GITHUB</v-btn>
-        <v-btn flat color="white">LINKEDIN</v-btn>
+        <v-btn flat color="white"><a href="https://github.com/Juanma97">GITHUB</a></v-btn>
+        <v-btn flat color="white"><a href="https://www.linkedin.com/in/juan-manuel-perez-toro-b992747a/">LINKEDIN</a></v-btn>
           <v-btn flat icon color="white">
             <router-link tag="home" to="/">
             <v-icon>home</v-icon>
@@ -37,5 +37,8 @@ export default {
 
 
 <style scoped>
-
+a{
+  text-decoration: none;
+  color: white;
+}
 </style>
